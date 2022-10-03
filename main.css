@@ -1,0 +1,128 @@
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+header li {
+    display: inline;
+    margin-left: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header .container {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+.legenda_data {
+    color:gray;
+    font-size: 14px;
+}
+
+header .container a{
+    text-decoration: none;
+    color:#000;
+}
+
+body > header{
+    background-color: blueviolet;
+    padding: 16px 0;
+    color: #000;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+.articles article a {
+    background-color:blue;
+    color:#fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight:bold;
+    margin-top: 8px;
+}
+
+.articles article img {
+    /* height: 200px; */
+    width:100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+.articles article {
+    font-size:24px;
+}
+
+/*.teste {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}*/
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+#sports{
+    background-color: rgba(0,255,0,0.2);
+}
+
+#sports .articles article a{
+    background-color: rgba(0,255,0,0.6);
+}
+
+
+#economy{
+    background-color: rgba(255,0,0,0.2);
+}
+
+#economy .articles article a{
+    background-color: rgba(255,0,0,0.4);
+}
+
+#games{
+    background-color: rgba(0,0,255,0.3);
+}
+
+#games .articles article a{
+    background-color: rgba(0,0,255,0.6);
+}
+
+#series{
+    background-color: rgba(157,170,255,0.3);
+}
+
+#series .articles article a{
+    background-color: rgba(157,170,255,0.6);
+}
